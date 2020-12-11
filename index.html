@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      let a = document.createElement('div')
+      a.setAttribute('Id', 'div')
+
+      document.body.appendChild(a)
+
+      let h = document.createElement('h1')
+      h.textContent = 'satauri';
+      document.getElementById('div').appendChild(h)
+
+      let img = document.createElement('img')
+      img.setAttribute('src', 'https://homepages.cae.wisc.edu/~ece533/images/monarch.png')
+      img.setAttribute("height", "100");
+      img.setAttribute("width", "100");
+
+      document.getElementById('div').appendChild(img)
+
+      let p = document.createElement('p')
+      p.textContent = 'Lorem ipsum dolor sit amet'
+      document.getElementById('div').appendChild(p)
+
+    <!-- second div -->
+    let b = document.createElement('div')
+    b.setAttribute('Id', 'div1')
+
+    document.body.appendChild(b)
+    let h1 = document.createElement('h1')
+    h1.textContent = 'satauri 1'
+    document.getElementById('div1').appendChild(h1)
+
+    let img1 = document.createElement('img')
+    img1.setAttribute('src', 'https://homepages.cae.wisc.edu/~ece533/images/monarch.png')
+    img1.setAttribute("height", "100");
+    img1.setAttribute("width", "100");
+
+    document.getElementById('div1').appendChild(img1)
+
+    let p1 = document.createElement('p')
+    p1.textContent = 'Lorem ipsum dolor sit amet'
+
+    document.getElementById('div1').appendChild(p1)
+
+    <!-- third div -->
+    let c = document.createElement('div')
+    c.setAttribute('Id', 'div2')
+
+    document.body.appendChild(c)
+    let h2 = document.createElement('h1')
+    h2.textContent = 'satauri 2'
+    document.getElementById('div2').appendChild(h2)
+
+    let img2 = document.createElement('img')
+    img2.setAttribute('src', 'https://homepages.cae.wisc.edu/~ece533/images/monarch.png')
+    img2.setAttribute("height", "100");
+    img2.setAttribute("width", "100");
+
+    document.getElementById('div2').appendChild(img2)
+
+    let p2 = document.createElement('p')
+    p2.textContent = 'Lorem ipsum dolor sit amet'
+
+    document.getElementById('div2').appendChild(p2)
+    </script>
+  </body>
+</html>
